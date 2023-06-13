@@ -1,3 +1,4 @@
+//ist für den Website name
 export default function Head() {
   return (
     <>
