@@ -79,7 +79,7 @@ const NavBar = () => {
                   className="dropdown-caret transition-transform ease-in-out"
                 />
               </button>
-              <NavigationMenu.Content
+              <AccordionDetails
                 id="category-content"
                 className="absolute top-14 border border-skin-muted bg-skin-base p-4 shadow-lg lg:-left-1/2"
               >
@@ -109,7 +109,7 @@ const NavBar = () => {
                     />
                   </div>
                 </div>
-              </NavigationMenu.Content>
+              </AccordionDetails>
             </MenuItem>
 
             <MenuItem className="nav-menu">
