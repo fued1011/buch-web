@@ -1,5 +1,17 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/public/*": ["public/*"],
+      "@/components/*": ["app/components/*"],
+      "@/loading-ui/*": ["app/components/loading-ui/*"],
+      "@/icons/*": ["app/icons/*"],
+      "@/utils/*": ["lib/utils/*"],
+      "@/types/*": ["lib/types/*"],
+      "@/hooks": ["lib/hooks"],
+      "@/store": ["lib/store"],
+      "@/lib/*": ["lib/*"]
+    },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -18,11 +30,14 @@
       {
         "name": "next"
       }
-    ],
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/page.tsx", "src/components/DarkModeSwitch.jsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "/Users/satnaing/dev/react/next-bookstore/.next/types/**/*.ts"
+  ],
   "exclude": ["node_modules"]
 }
