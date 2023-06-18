@@ -5,6 +5,7 @@ import Link from "next/link"
 import { Menu } from "@mui/icons-material";
 import MenuItem from "@mui/material/MenuItem";
 import MenuList from "@mui/material/MenuList";
+import CollapsibleMenu from "app/components/CollapsibleMenu"
 import { Accordion, AccordionSummary, AccordionDetails } from "@mui/material";
 import SocialGroup from "app/components/SocialGroup"
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
