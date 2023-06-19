@@ -16,7 +16,7 @@ const Home = () => {
         Willkommen zur Startseite
       </Typography>
       <Typography variant="body1" component="p" align="center">
-        Hier ght es zu den Büchern
+        Hier geht es zu den Büchern
       </Typography>
       <Typography variant="body1" component="p" align="center">
         <Link href="/Books" onClick={handleBooksLinkClick}>

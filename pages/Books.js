@@ -180,19 +180,6 @@ const Books = () => {
         />
 
         <FormControl sx={{ mb: 2 }}>
-          <InputLabel htmlFor="category-select">Category</InputLabel>
-          <Select
-            value={category}
-            onChange={handleCategoryChange}
-            inputProps={{ id: 'category-select' }}
-          >
-            <MenuItem value="">All</MenuItem>
-            <MenuItem value="BATMAN">BATMAN</MenuItem>
-            <MenuItem value="IRONMAN">IRONMAN</MenuItem>
-          </Select>
-        </FormControl>
-
-        <FormControl sx={{ mb: 2 }}>
           <InputLabel htmlFor="format-select">Format</InputLabel>
           <Select
             value={format}
