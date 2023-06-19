@@ -166,10 +166,17 @@ const Books = () => {
   };
 
   return (
-    <div>
-      <Typography variant="h4" sx={{ mb: 2 }}>
-        Books
-      </Typography>
+    <div style={{padding: '20px' }}>
+<Typography variant="h4" sx={{
+  mb: 2,
+  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)', // Schatten
+  color: 'white', // Textfarbe
+  backgroundColor: 'red', // Hintergrundfarbe
+  borderRadius: '4px', // abgerundete Ecken
+  padding: '10px', // Innenabstand
+}}>
+  Books
+</Typography>
 
       <div>
         <TextField
